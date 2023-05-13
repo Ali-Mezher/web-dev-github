@@ -48,3 +48,52 @@
 #hero-content a:hover {
     background-color: rgb(255, 238, 0);
 }
+
+#highlights-content {
+    background-color: rgb(215, 248, 251);
+    height: 550px;
+    position: relative;
+    padding: 0 150px;
+
+}
+
+#highlights-content h1 {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+
+    padding-top: 75px;
+}
+
+.highlights-imgs {
+
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.highlights-imgs img {
+    width: 660px;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+.miami span {
+    color: rgb(9, 123, 99);
+}
+
+
+.miami h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
