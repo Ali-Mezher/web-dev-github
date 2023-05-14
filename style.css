@@ -98,6 +98,11 @@
     text-transform: uppercase;
 } */
 
+#highlights {
+    padding: 24px;
+    background: linear-gradient(0deg, rgb(227, 225, 253), rgb(202, 243, 240));
+}
+
 #highlights h2 {
     text-transform: uppercase;
     text-align: center;
@@ -132,7 +137,7 @@
 
 .destination p {
     text-align: center;
-    font-size: ;
+    font-size: 24px;
     color: rgb(124, 123, 123);
     margin: 20px 0;
 
