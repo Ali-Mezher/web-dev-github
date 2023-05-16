@@ -2,14 +2,33 @@ body {
     background: linear-gradient(30deg, rgb(77, 77, 77), rgb(55, 55, 55));
 }
 
+#pageLogo a {
+    color: rgb(183, 230, 235);
+}
+
 header {
     position: static;
 }
 
-main ul {
-    width: 1500px;
-    margin: 0 auto;
+header nav a {
+    color: rgb(183, 230, 235);
+}
 
+header nav a:hover {
+    background-color: rgb(183, 230, 235);
+    color: rgb(59, 59, 59);
+}
+
+main ul {
+    width: 1200px;
+    margin: 0 auto 48px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+}
+
+main li:nth-of-type(3) {
+    grid-column: 1 / span 2;
 
 }
 
@@ -19,7 +38,7 @@ main li {
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
     overflow: hidden;
-    width: 500px;
+
 }
 
 main li img {
@@ -43,7 +62,7 @@ main li img {
     border-radius: 5px;
 }
 
-.actions a:hover {
+.actions nav a:hover {
     background-color: rgb(235, 253, 255);
 
 }
@@ -54,6 +73,10 @@ main li img {
     flex-direction: column;
     justify-content: space-between;
 
+}
+
+.item-content h2 {
+    margin: 0;
 }
 
 .item-content p {
